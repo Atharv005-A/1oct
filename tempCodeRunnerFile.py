@@ -1,18 +1,12 @@
 n = int(input("Enter number for pattern: "))
 
-for i in range(1, n + 1):
-    #  spaces
-    for j in range(n - i):
-        print(" ", end=" ")
+# for i in range(1, n + 1):
+#     #  spaces
+#     for j in range(n - i):
+#         print(" ", end=" ")
 
-    # stars
-    for j in range(2 * i - 1):
-        print("*", end=" ")
+#     # stars
+#     for j in range(2 * i - 1):
+#         print("*", end=" ")
 
-    print()
-
-
-
-
-
-
+#     print()
