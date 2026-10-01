@@ -1,8 +1,8 @@
-ist=[12,34,56,3,53,66]
-print("orignal list:",ist)
+orignal=[12,34,56,3,53,66]
+print("orignal list:",orignal)
 
-rlis=[]
-for i in  ist[::-1]:
-    rlis.append(i)
+reverse=[]
+for i in  orignal[::-1]:
+    reverse.append(i)
 
-print("reversed list:",rlis)
+print("reversed list:",reverse)
